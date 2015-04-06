@@ -11,6 +11,7 @@
     <modules>
         <module>medical</module>
         <module>db-script</module>
+        <module>autodb</module>
     </modules>
     <dependencies>
 
@@ -29,6 +30,7 @@
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
             <version>2.5</version>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>
@@ -274,11 +276,6 @@
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
             <version>1.7.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.liquibase</groupId>
-            <artifactId>liquibase-core</artifactId>
-            <version>3.3.2</version>
         </dependency>
 
     </dependencies>
