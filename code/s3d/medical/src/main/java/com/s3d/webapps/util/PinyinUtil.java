@@ -8,13 +8,13 @@ public class PinyinUtil
 	
 	private static int END = 63486;
 	
-	private static char[] chartable = null;
-	//{ '啊', '芭', '擦', '搭', '蛾', '发', '噶', '哈', '哈', '击', '喀', '垃', '妈', '拿', '哦', '啪', '期', '然', '撒', '塌', '塌', '塌', '挖', '昔', '压', '匝', };
+	private static char[] chartable =
+	{ '啊', '芭', '擦', '搭', '蛾', '发', '噶', '哈', '哈', '击', '喀', '垃', '妈', '拿', '哦', '啪', '期', '然', '撒', '塌', '塌', '塌', '挖', '昔', '压', '匝', };
 	
 	private static int[] table = new int[27];
 	
-	private static char[] initialtable = null;
-	//{ 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'h', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 't', 't', 'w', 'x', 'y', 'z', };
+	private static char[] initialtable =
+	{ 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'h', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 't', 't', 'w', 'x', 'y', 'z', };
 	
 	// 初始化
 	static
@@ -104,7 +104,7 @@ public class PinyinUtil
 	
 	public static void main(String[] args) throws Exception
 	{
-		//System.out.println(cn2py("唐山重视发展IT行业，大多数外企，如，IBM等进驻山城"));
+		System.out.println(cn2py("唐山重视发展IT行业，大多数外企，如，IBM等进驻山城"));
 	}
 	
 }

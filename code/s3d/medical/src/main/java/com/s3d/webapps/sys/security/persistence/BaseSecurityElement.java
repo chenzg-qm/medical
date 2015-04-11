@@ -21,11 +21,7 @@ public class BaseSecurityElement extends BaseEntityObject {
 	protected Date fdAlterTime; //最后修改时间
 	protected String fdParentId; //上级分类ID
 	protected BaseSecurityElement fdParent;
-
-    public BaseSecurityElement() {
-    }
-
-    /**
+	/**
 	 * @return 名称
 	 */
 	public String getFdName() {

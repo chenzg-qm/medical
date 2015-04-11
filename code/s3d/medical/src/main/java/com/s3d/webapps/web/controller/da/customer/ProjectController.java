@@ -60,8 +60,10 @@ public class ProjectController extends BaseController<DaCustomerProject>{
 			parent = (DaCustomerHospital) daCustomerHospitalService.findByPrimaryKey(parentId);
 		}
 		if(parent==null || parent.getFdOrgType()!=HospitalOrgConstant.HSP_TYPE_HOSPITAL)
-			throw new RuntimeException("It's necessary to create project in customer");
+			throw new RuntimeException("必须在客户下面创建项目");
+		
 		model.addAttribute("parent", parent);
+		
 		return getRequestMappingPath() + "/add";
 	}
 	
