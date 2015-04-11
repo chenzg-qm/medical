@@ -13,6 +13,7 @@
     <artifactId>db-script</artifactId>
     <packaging>jar</packaging>
     <name>db scripts</name>
+
     <dependencies>
         <dependency>
             <groupId>org.liquibase</groupId>
