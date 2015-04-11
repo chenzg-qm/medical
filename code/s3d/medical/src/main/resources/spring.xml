@@ -100,7 +100,7 @@
 		<property name="configLocation" value="classpath:hibernate.cfg.xml" />
 		<property name="mappingDirectoryLocations">
 			<list>
-				<value>classpath:/com/s3d/webapps</value>
+				<value>classpath:/hbm</value>
 			</list>
 		</property>
 	</bean>
